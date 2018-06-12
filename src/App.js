@@ -113,6 +113,7 @@ checkModal(){
    <span className="close" onClick={this.changeButton}>&times;  </span> 
 <br/><br/>
 <h1>Welcome to my markdown previewer.</h1> To use it, simply type markdown into the left pane, and it will automatically be conerted into markdown in the right pane.<br/>
+You can "grab" the center bar and slide it left and right to change the size of the windows. <br/>
 A cheatsheet for markdown is provided below: <br/><br/>
 Headings:<br/>
 --------<br/>
@@ -195,6 +196,9 @@ const defaultString = `# My Markdown Previewer
 ### I did this mainly to learn react! React is pretty sick.
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)
+
+Here is a link:
+[links](https://www.freecodecamp.com)
 
 Here is a list of things I want to do:
 1. Change the way people interpret their perspectives.
