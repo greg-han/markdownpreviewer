@@ -90,21 +90,18 @@ height: 100%;
  font-size: 17px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 715px){
 .navtext{
   font-weight: bold; 
   color: #f9fcff;
   margin-left:10px;
   overflow: auto;
   word-wrap: break-word; 
-  font-size: 10px;
+  font-size: 13px;
  }
 
 .textdiv{
  height: 100%;
-}
-html,body{
- height:100%;
 }
 
 textarea{
@@ -112,4 +109,33 @@ width: 50%;
 resize: none;
 }
 
+#myBtn{
+ background-color: #4CAF50;
+ border: 1px white;
+ color: #f9fcff;
+ font-weight: bold;
+ padding: 7.5px 16px;
+ text-align: center;
+ display: inline-block;
+ font-size: 10px;
+ position: relative;
+ height: 4.5px;
+ box-shadow: 0 .5px .5px .5px #2f7231;
+ font-family: 'Fredoka One', cursive; 
+}
+
+.navbar{
+  background-color: #333;
+  min-width: 400px;
+  position: absolute;
+  width:100%;
+  margin-right: 500px;
+  line-height: 35px;
+  text-align: center;
+  word-wrap: break-word; 
+  box-shadow: 0 1.5px 1.5px 1.5px #545454;
+  font-family: 'Fredoka One', cursive; 
+  font-size: 2.5em;
+  color: #f9fcff;
+}
 }
