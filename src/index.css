@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.navbar{
+  background-color: #333;
+  min-width: 400px;
+  position: absolute;
+  width:100%;
+  margin-right: 500px;
+  line-height: 75px;
+  text-align: center;
+  word-wrap: break-word; 
+  box-shadow: 0 1.5px 1.5px 1.5px #545454;
+  font-family: 'Fredoka One', cursive; 
+  font-size: 2.5em;
+  color: #f9fcff;
+}
+
+.navtext{
+  font-weight: bold; 
+  color: white;
+  margin:auto;
+  position: static; 
+  overflow: auto;
+  margin-left: 75px;
+}
+
+.modal{
+ display: none;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ background-color:
+ rgba(0,0,0,0.4);
+ overflow-y: auto;
+}
+
+.modal-content{
+ background-color: #fefefe;
+ margin: 15% auto;
+ padding: 15px;
+ border: 1px solid #888;
+ width: 80%;
+ font-weight: bold;
+ overflow-y: auto;
+}
+ 
+.close{
+ color: #aaa;
+ float: right;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+[contenteditable='true']{
+height: 100%;
+} 
+
+#myBtn{
+ background-color: #4CAF50;
+ border: 1px white;
+ color: #f9fcff;
+ font-weight: bold;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ position: relative;
+ height: 75px;
+ box-shadow: 0 1.5px 1.5px 1.5px #2f7231;
+ font-family: 'Fredoka One', cursive; 
+ font-size: 17px;
+}
+
+@media only screen and (max-width: 500px){
+.navtext{
+  font-weight: bold; 
+  color: #f9fcff;
+  margin-left:10px;
+  overflow: auto;
+  word-wrap: break-word; 
+  font-size: 10px;
+ }
+
+.textdiv{
+ height: 100%;
+}
+html,body{
+ height:100%;
+}
+
+textarea{
+width: 50%;
+resize: none;
+}
+
+}
