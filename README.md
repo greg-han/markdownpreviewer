@@ -3,7 +3,7 @@ This will instantaneously(as you type) convert any text typed into the left wind
 Built to get a sense of how react works. React is fun!
 
 Link to working example on glitch:
-https://lackadaisical-manatee.glitch.me/
+https://reactmarkdownpreviewer.herokuapp.com/
 
 ## Features
 
