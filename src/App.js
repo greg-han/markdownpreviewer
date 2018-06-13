@@ -194,7 +194,7 @@ https://www.markdownguide.org/cheat-sheet/
 const defaultString = `# My Markdown Previewer
 
 ## I literally made this while I was sleeping on a roof.
-###(I just thought that was a quirky fact that would make this more fun to use)
+### (I just thought that was a quirky fact that would make this more fun to use)
 
 ### I did this mainly to learn react! React is pretty sick.
 
