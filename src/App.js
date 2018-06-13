@@ -60,13 +60,15 @@ handleChange(event){
 }
  render(){
    return(
+<div>
 <SplitterLayout>
-<div style={{height:'100%'}}>
+<div className="leftPane">
 <textarea id="editor" value={this.state.input} style={{resize:'none', height:'100%',width:'100%',fontSize:'16px'}} onChange={this.handleChange}>
 </textarea>
 </div>
-<div id="preview" dangerouslySetInnerHTML={{__html : this.state.markdown}}></div>
+<div id="preview" className="rightPane" dangerouslySetInnerHTML={{__html : this.state.markdown}}></div>
 </SplitterLayout>
+</div>
 );
 }
 };

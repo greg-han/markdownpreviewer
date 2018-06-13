@@ -21,6 +21,7 @@ body {
   font-family: 'Fredoka One', cursive; 
   font-size: 2.5em;
   color: #f9fcff;
+  margin-bottom: 75px;
 }
 
 .navtext{
@@ -89,6 +90,14 @@ height: 100%;
  font-family: 'Fredoka One', cursive; 
  font-size: 17px;
 }
+.leftPane{
+ margin-top: 75px;
+ height:100%;
+}
+.rightPane{
+ margin-top: 75px;
+ height:100%;
+}
 
 @media only screen and (max-width: 715px){
 .navtext{
@@ -109,6 +118,17 @@ width: 50%;
 resize: none;
 }
 
+.leftPane{
+ height: 100%;
+ margin-top: 47px; 
+}
+
+
+.rightPane{
+ margin-top: 47px; 
+ height:100%;
+}
+
 #myBtn{
  background-color: #4CAF50;
  border: 1px white;
@@ -119,7 +139,7 @@ resize: none;
  display: inline-block;
  font-size: 10px;
  position: relative;
- height: 4.5px;
+ height: 45px;
  box-shadow: 0 .5px .5px .5px #2f7231;
  font-family: 'Fredoka One', cursive; 
 }
